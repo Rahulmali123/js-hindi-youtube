@@ -1,0 +1,18 @@
+const accountId = 144553
+let accountEmail ="rahulmali2140@.com"
+var accountPassword="12345"
+acoountCity ="Jaipur"
+let accountState;
+
+
+// accountId=2  // not allowed
+
+accountEmail="abc@c.com"
+accountPassword="21212121"
+acoountCity="Bengaluru"
+
+console.log(accountId);
+
+console.table([accountId,accountEmail,accountPassword,acoountCity,accountState]);
+
+
