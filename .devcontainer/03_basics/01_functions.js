@@ -8,23 +8,25 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()
+ sayMyName()
 
-// function addTwoNumbers(number1, number2){
+function addTwoNumbers(number1, number2){
 
-//     console.log(number1 + number2);
-// }
+    console.log(number1 + number2);
+}
+
+// addTwoNumbers(3,4);
 
 function addTwoNumbers(number1, number2){
 
     // let result = number1 + number2
-    // return result
+    // return result;
     return number1 + number2
 }
 
 const result = addTwoNumbers(3, 5)
 
-// console.log("Result: ", result);
+console.log("Result: ", result);
 
 
 function loginUserMessage(username = "sam"){
@@ -35,15 +37,15 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
+console.log(loginUserMessage("sams"))
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1,val2,val3, ...num1){
     return num1
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
     username: "hitesh",
@@ -55,6 +57,7 @@ function handleObject(anyobject){
 }
 
 // handleObject(user)
+
 handleObject({
     username: "sam",
     price: 399
@@ -66,5 +69,5 @@ function returnSecondValue(getArray){
     return getArray[1]
 }
 
-// console.log(returnSecondValue(myNewArray));
+ console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
